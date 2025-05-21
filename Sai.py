@@ -19,7 +19,7 @@ admin_list = [2117432792]
 daily_bonus = {}
 leaderboard = {}
 
-bot = telebot.TeleBot(7818708282:AAFzCZxxO5PIzSis4bfGIXSIZeQi7XyonVg)
+bot ="7818708282:AAFzCZxxO5PIzSis4bfGIXSIZeQi7XyonVg"
 
 @bot.message_handler(commands=['start'])
 def start(message):

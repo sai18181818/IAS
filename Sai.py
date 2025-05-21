@@ -21,7 +21,7 @@ leaderboard = {}
 
 bot ="7818708282:AAFzCZxxO5PIzSis4bfGIXSIZeQi7XyonVg"
 
-@bot.message_handler(commands=['start'])
+@bot.message_handler commands='start'
 def start(message):
     user_id = message.from_user.id
     if user_id in approved_users:
